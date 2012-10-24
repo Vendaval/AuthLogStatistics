@@ -2,4 +2,5 @@ AuthLogStatistics
 =================
 
 Performs a statistical analysis auth.log file
-Actualmente requiere de la biblioteca geoip and GNUplot
+
+Currently requires the GeoIP C library and gnuplot
