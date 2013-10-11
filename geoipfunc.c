@@ -1,5 +1,5 @@
-#include "GeoIP.h"
-#include "GeoIPCity.h"
+#include <GeoIP.h>
+#include <GeoIPCity.h>
 
 static const char *_mk_NA(const char *p)
 {
