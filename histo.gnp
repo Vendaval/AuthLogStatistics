@@ -9,7 +9,7 @@ set style data histograms
 set xtics border in scale 0,0 nomirror rotate by -45  offset character 0, 0, 0 autojustify
 set xtics  norangelimit font ",8"
 set xtics   ()
-set title "US immigration from Northern Europe\nPlot selected data columns as histogram of clustered boxes" 
-set yrange [ 0.00000 : 300000. ] noreverse nowriteback
+set title "IPs" 
+#set yrange [ 0.00000 : 300000. ] noreverse nowriteback
 i = 22
-plot 'immigration.dat' using 6:xtic(1) ti col, '' u 12 ti col, '' u 13 ti col, '' u 14 ti col
+plot '~/data/logical/2013-10-12/ip-attempts.txt' using 6:xtic(1) ti col, '' u 12 ti col, '' u 13 ti col, '' u 14 ti col
